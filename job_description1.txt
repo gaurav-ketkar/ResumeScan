@@ -1,0 +1,34 @@
+Software_Developer_Job
+MINIMUM REQUIREMENTS
+
+Bachelor's degree in Computer Science or STEM ( Science , Technology , Engineering , Math ) majors , or 6+ years of equivalent work experience in IT
+6+ years developer experience with J2EE / JEE or JSE
+Experience with Web Services ( REST / SOAP )
+Experience leading development teams through the software development lifecycle
+
+PREFERRED
+
+Experience in any of the following : Servlet , JSP , EJB , JMS , JMX , JAX-WS , JAX-RS , ORM , J2C / JCA , JDBC
+Experience in any of the following JavaScript frameworks : React , jQuery , Bootstrap , YUI , Backbone.js , AngularJS , Dojo
+Experience with scripting languages such as Perl , Bash or Korn
+Experience with code management tools such as RTC or Git
+Experience with markup languages such as XML , JSON , HTML or DHTML
+Experience with enterprise application servers such as WebSphere or JBoss
+Experience with relational database concepts such as Oracle , UDB , SQL Server , data modeling , administration ( DML , DDL )
+Experience with Agile methodologies
+Experience designing software solutions
+Managing work across teams ( i.e. . coordinating with server or database teams , dealing with business)
+
+DESIRED CHARACTERISTICS
+
+USAA Java developers transform analytics to impact our members' experiences . Collectively , we are :
+
+Curious and excited by new ideas
+Energized by a fast-paced environment
+Able to understand and translate business needs into leading-edge technology
+Comfortable working as part of a connected team , but self-motivated
+Community-focused , dependable and committed
+Exceptionally detail-oriented
+Relocation assistance is available for this position .
+
+The above description reflects the details considered necessary to describe the principal functions of the job and should not be construed as a detailed description of all the work requirements that may be performed in the job .

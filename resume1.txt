@@ -1,0 +1,64 @@
+Software_Developer_Resume
+Gaurav Ketkar
+Cell : +1 678 786 4298
+Website : ketkar.me
+LinkedIn : /in/gketkar
+Visa Status : F1
+Email : ​gketkar08@gmail.com
+Github : ​/ketcomp
+
+EXPERIENCE
+
+Software Development Intern ESPN , Bristol CT Fall 2015
+Developed & launched a web­app using HTML5 and Node.js ( MEAN stack ) to collect voice samples ​ Link
+Used template engine Jade , CSS and JS for frontend , Express for the web­app and MongoDB for the database
+Reduced data collection time by more than 75% & increased the accuracy of data collected dramatically
+Came up with a novel way to pilot­ test the application and drive user interest in the project
+
+Research Student FIVE Lab , UT Dallas . Dr. Ryan McMahan Spring 2015
+Worked with Dr. Ryan McMahan to track subjects in 3D space ​ without​ using external​ ​ cameras . Used computer vision
+techniques in OpenCV & Unity on the Samsung Gear VR virtual reality system .
+Presented to a group of investors in order to secure research funding for the ​ FIVE lab​ . Investors included
+representatives from the Mark Cuban Companies ​ Link - Video
+
+EDUCATION
+MS , Computer Science ​ GPA 3.6 University of Texas at Dallas ​ ( Expected ) ​ August 2016
+Relevant Coursework​ :​ Implementation of Adv. Data Structures & Algorithms , Database Design , Artificial Intelligence ,
+Machine Learning , Natural Language Processing , Web Programming Languages .
+
+BE , Electronics Engineering ​ GPA 3.8 University of Mumbai , India June 2014
+Relevant Coursework​ : ​Computer vision , Computer networks , Fuzzy Systems and Neural Networks 
+Other Experience - Debate Team Captain , President Of Cultural Affairs in Student Government
+
+PROJECTS
+Implemented various data structures and algorithms in Java ​ ( Java ) Spring 2016
+Modified various searching , sorting and shortest path algorithms to make them efficient .
+Implemented various advanced data structures i.e. Heaps , Priority Queues , Doubly Linked Lists , Hash Tables etc.
+
+Resume scanning tool that gives the match % with the job description ​ ( Python ) Spring 2016
+Used Natural Language Processing algorithms & concepts like N­Grams , Add­one smoothing , Good Turing
+smoothing to find the match between a given job description and the input text resume .
+
+Determined the match % and suggested areas that are either lacking or in excess .
+Created a library management database system using SQL ​ ( SQL ) Spring 2016
+Designed and implemented the database schema modelled on an actual library’s database requirements
+Features included Search , Due date extension , Fine calculator etc.
+
+Implemented 9­man morris using Artificial Intelligence ​ ( Python ) Summer 2015
+Implemented this game with a command­line interface based on Alpha-Beta pruning , Min­Max & BFS algorithms
+Computer could play with user or computer itself . Computer usually won .
+
+Virtual reality wearable simulation game with Artificial Intelligence ​ ( C# ) Fall 2014
+Developed ​ a warfare scene in Unity using Maya , the Oculus Rift DK-2 . The AI was based on simple metrics like
+distance between two characters on the screen , noise made by user , gestures made by user etc .
+
+Crowd density detection in trains using camera ​ ( Python ) Summer 2014
+Used OpenCV ( Python ) to find the most crowded compartments in a train to improve passenger load distribution
+
+LEADERSHIP
+Jagriti Yatra , ​ December 2013 Selected from 18k . A competitive pan­India tour about entrepreneurship .​ ​ Link
+President of Cultural Affairs , ​ Fall 2013 Part of the student council in college . Led 80+ students creating stage-shows .
+Debate team captain , ​ 2012-2014 Debate team captain for 2 years in college .
+TECHNICAL SKILLS
+Languages and Frameworks Java , Python , JavaScript ( Node.js ), Bash , Git , HTML , CSS .
+Databases MySQL
