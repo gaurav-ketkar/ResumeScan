@@ -1,0 +1,37 @@
+name: 🐛 Report a bug
+description: Something not working as expected somewhere on the Support Portal, ESB Tools, ChatOps, or Zendesk Sidecar? Report it here!
+labels: bug
+body:
+- type: markdown
+  attributes:
+    value: 'Thanks for reporting this bug to us and helping us determine how to prioritize it!'
+- type: textarea
+  attributes:
+    label: Summarize the problem.
+    description: Explain the problem, including links to where you're seeing a problem, screenshots, what browser you're using, etc. 
+  validations:
+    required: true
+- type: textarea
+  id: urgency
+  attributes: 
+    label: Is this work urgent and if so why?
+  validations:
+    required: true
+- type: dropdown
+  id: visibility
+  attributes: 
+    label: How many users and/or Hubbers are affected (Visibility)?
+    options: 
+      - 'A lot (Score: 1)'
+      - 'A few (Score: 0)'
+  validations:
+    required: false
+- type: dropdown
+  id: impact
+  attributes: 
+    label: How significant is the impact (Impact)?
+    options: 
+      - 'This bug can not be worked around (Score: 1)'
+      - 'This bug can be worked around (Score: 0)'
+  validations:
+    required: false
