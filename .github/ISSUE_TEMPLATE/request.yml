@@ -1,0 +1,95 @@
+name: 🆕 Request a new feature or enhancement
+
+description: Use this to request a new feature/enhancement for the Support Portal, ESB Tools, ChatOps, or Zendesk Sidecar.
+
+labels: new-request
+
+body:
+
+- type: markdown
+
+  attributes:
+
+    value: 'Thanks for opening this request and helping us determine how to prioritize it!'
+
+- type: dropdown
+
+  id: pm
+
+  attributes: 
+
+    label: Approved by `@burkben`, `@victorp13`, `@taz` or `@gaurav-ketkar`
+
+    options: 
+
+      - Yes (ready for prioritization)
+
+      - Not yet (not ready for prioritization)
+
+- type: textarea
+
+  attributes:
+
+    label: Describe the request
+
+    description: Give as much detail as you can to help us understand your request. 
+
+  validations:
+
+    required: true
+
+- type: textarea
+
+  id: urgency
+
+  attributes: 
+
+    label: Is this work urgent and if so why?
+
+  validations:
+
+    required: true
+
+- type: dropdown
+
+  id: visibility
+
+  attributes: 
+
+    label: How many users and/or Hubbers would be affected by this work (Visibility)?
+
+    options: 
+
+      - 'A lot (Score: 1)'
+
+      - 'A few (Score: 0)'
+
+  validations:
+
+    required: true
+
+- type: dropdown
+
+  id: impact
+
+  attributes: 
+
+    label: How significant would this impact be (Impact)?
+
+    options: 
+
+      - 'High, this impact would be long-lasting and utilized frequently (Score: 1)'
+
+      - 'Low, this impact would be temporary for something that happens infrequently (Score: 0)'
+
+  validations:
+
+    required: true
+
+- type: textarea
+
+  attributes:
+
+    label: Supporting data
+
+    description: Supporting data that will help us prioritize the work sooner.
