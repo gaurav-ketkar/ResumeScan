@@ -57,8 +57,6 @@ body:
       - 'Yes'
       - 'No'
       - TBD
-  validations:
-    required: true
 - type: dropdown
   attributes:
     label: GH external docs needed?
@@ -67,8 +65,6 @@ body:
       - 'Yes'
       - 'No'
       - TBD
-  validations:
-    required: true
 - type: checkboxes
   attributes:
     label: Work item closing checklist
