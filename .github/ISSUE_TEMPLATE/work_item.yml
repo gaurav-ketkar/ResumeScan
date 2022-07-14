@@ -17,7 +17,7 @@ body:
   attributes:
     label: Stakeholders 👥
     description: Who cares about this work-item? Who has asked for it? Who would be affected by it?
-    placeholder: @gaurav-ketkar, @github/digital-customer-success
+    placeholder: '@gaurav-ketkar, @github/digital-customer-success'
 - type: input
   attributes:
     label: Success Metrics 📊
