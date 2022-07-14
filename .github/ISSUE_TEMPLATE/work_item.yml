@@ -54,8 +54,8 @@ body:
     label: GH internal docs needed?
     description: Does this work item require internal GH docs?
     options: 
-      - Yes
-      - No
+      - 'Yes'
+      - 'No'
       - TBD
   validations:
     required: true
@@ -64,8 +64,8 @@ body:
     label: GH external docs needed?
     description: Does this work item require external GH docs?
     options: 
-      - Yes
-      - No
+      - 'Yes'
+      - 'No'
       - TBD
   validations:
     required: true
