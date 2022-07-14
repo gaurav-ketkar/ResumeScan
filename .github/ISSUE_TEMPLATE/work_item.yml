@@ -39,47 +39,47 @@ body:
     label: Definition of done ✅
     description: Write specific actions to take that once taken will close this work-item. Text descriptions can be replaced with Initiatives/Epics/Batches/Tasks that capture that description's essence in the course of working through this work-item.
 - type: checkboxes
-    attributes:
-      label: Announcement
-      description: What type of announcement is appropriate for this work-item?
-      options:
-        - label: External blog post
-        - label: Changelog
-        - label: Release issue
-        - label: Hub post
-        - label: Team post
-        - label: Snippets
+  attributes:
+    label: Announcement
+    description: What type of announcement is appropriate for this work-item?
+    options:
+      - label: External blog post
+      - label: Changelog
+      - label: Release issue
+      - label: Hub post
+      - label: Team post
+      - label: Snippets
 - type: dropdown
-    attributes:
-      label: GH internal docs needed?
-      description: Does this work item require internal GH docs?
-      options: 
-        - Yes
-        - No
-        - TBD
-    validations:
-      required: true
+  attributes:
+    label: GH internal docs needed?
+    description: Does this work item require internal GH docs?
+    options: 
+      - Yes
+      - No
+      - TBD
+  validations:
+    required: true
 - type: dropdown
-    attributes:
-      label: GH external docs needed?
-      description: Does this work item require external GH docs?
-      options: 
-        - Yes
-        - No
-        - TBD
-    validations:
-      required: true
+  attributes:
+    label: GH external docs needed?
+    description: Does this work item require external GH docs?
+    options: 
+      - Yes
+      - No
+      - TBD
+  validations:
+    required: true
 - type: checkboxes
-    attributes:
-      label: Work item closing checklist
-      description: The DRI must go through this chcecklist while working through & closing this work-item
-      options:
-        - label: The 'Overview' table is filled out
-        - label: The 'Release requirements' table is filled out
-        - label: Work item has been classified as an Epic/Initiative/Batch/Task and nested as appropriate.
-        - label: Work item has been added to the [Digital Customer Success Semester Plan](https://github.com/orgs/github/projects/2946)
-        - label: Work item has a target date set in the Project board
-        - label: Stakeholders if applicable have signed-off on the final deliverable.
-        - label: A GitHub Docs issue is in place OR was deemed not necessary.
-        - label: A GitHub Docs Internal issue is in place OR was deemed not necessary.
-        - label: The work-item has been announced in appropriate channels or will shortly be announced.
+  attributes:
+    label: Work item closing checklist
+    description: The DRI must go through this chcecklist while working through & closing this work-item
+    options:
+      - label: The 'Overview' table is filled out
+      - label: The 'Release requirements' table is filled out
+      - label: Work item has been classified as an Epic/Initiative/Batch/Task and nested as appropriate.
+      - label: Work item has been added to the [Digital Customer Success Semester Plan](https://github.com/orgs/github/projects/2946)
+      - label: Work item has a target date set in the Project board
+      - label: Stakeholders if applicable have signed-off on the final deliverable.
+      - label: A GitHub Docs issue is in place OR was deemed not necessary.
+      - label: A GitHub Docs Internal issue is in place OR was deemed not necessary.
+      - label: The work-item has been announced in appropriate channels or will shortly be announced.
