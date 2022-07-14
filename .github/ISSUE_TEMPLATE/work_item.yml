@@ -10,20 +10,6 @@ body:
     required: true
 - type: input
   attributes:
-    label: Request issue/discussion 🔗
-    description: Where is this request coming from? Did someone request it? Did it come out of a discussion or Slack thread? This is important to note if one must go back to the requestor for clarification.
-    placeholder: Add a link to the original request issue/discussion.
-- type: textarea
-  attributes:
-    label: Stakeholders 👥
-    description: Who cares about this work-item? Who has asked for it? Who would be affected by it?
-    placeholder: '@gaurav-ketkar, @github/digital-customer-success'
-- type: input
-  attributes:
-    label: Success Metrics 📊
-    description: What metric would define success for this work-item?
-- type: input
-  attributes:
     label: DRI
     description: Who is directly responsible for this work-item?
   validations: 
@@ -38,6 +24,20 @@ body:
   attributes:
     label: Definition of done ✅
     description: Write specific actions to take that once taken will close this work-item. Text descriptions can be replaced with Initiatives/Epics/Batches/Tasks that capture that description's essence in the course of working through this work-item.
+- type: input
+  attributes:
+    label: Request issue/discussion 🔗
+    description: Where is this request coming from? Did someone request it? Did it come out of a discussion or Slack thread? This is important to note if one must go back to the requestor for clarification.
+    placeholder: Add a link to the original request issue/discussion.
+- type: textarea
+  attributes:
+    label: Stakeholders 👥
+    description: Who cares about this work-item? Who has asked for it? Who would be affected by it?
+    placeholder: '@gaurav-ketkar, @github/digital-customer-success'
+- type: input
+  attributes:
+    label: Success Metrics 📊
+    description: What metric would define success for this work-item?
 - type: checkboxes
   attributes:
     label: Announcement
