@@ -1,0 +1,85 @@
+name: ✅ Accepted work item.
+description: Use this to create a work-item for Dcs engineering to pick up from.
+labels: needs-sizing, needs-details
+body:
+- type: input
+  attributes:
+    label: What 🤔
+    description: A brief description of what this work-item is.
+  validations: 
+    required: true
+- type: input
+  attributes:
+    label: Request issue/discussion 🔗
+    description: Where is this request coming from? Did someone request it? Did it come out of a discussion or Slack thread? This is important to note if one must go back to the requestor for clarification.
+    placeholder: Add a link to the original request issue/discussion.
+- type: textarea
+  attributes:
+    label: Stakeholders 👥
+    description: Who cares about this work-item? Who has asked for it? Who would be affected by it?
+    placeholder: @gaurav-ketkar, @github/digital-customer-success
+- type: input
+  attributes:
+    label: Success Metrics 📊
+    description: What metric would define success for this work-item?
+- type: input
+  attributes:
+    label: DRI
+    description: Who is directly responsible for this work-item?
+  validations: 
+    required: true
+- type: textarea
+  attributes:
+    label: Describe the request in detail ✍️
+    description: An in-depth overview of what this work-item is. *Everything* anyone needs to start and finish this work-item should be written or linked to here. This is the definition of ready 
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Definition of done ✅
+    description: Write specific actions to take that once taken will close this work-item. Text descriptions can be replaced with Initiatives/Epics/Batches/Tasks that capture that description's essence in the course of working through this work-item.
+- type: checkboxes
+    attributes:
+      label: Announcement
+      description: What type of announcement is appropriate for this work-item?
+      options:
+        - label: External blog post
+        - label: Changelog
+        - label: Release issue
+        - label: Hub post
+        - label: Team post
+        - label: Snippets
+- type: dropdown
+    attributes:
+      label: GH internal docs needed?
+      description: Does this work item require internal GH docs?
+      options: 
+        - Yes
+        - No
+        - TBD
+    validations:
+      required: true
+- type: dropdown
+    attributes:
+      label: GH external docs needed?
+      description: Does this work item require external GH docs?
+      options: 
+        - Yes
+        - No
+        - TBD
+    validations:
+      required: true
+- type: checkboxes
+    attributes:
+      label: Work item closing checklist
+      description: The DRI must go through this chcecklist while working through & closing this work-item
+      options:
+        - label: The 'Overview' table is filled out
+        - label: The 'Release requirements' table is filled out
+        - label: Work item has been classified as an Epic/Initiative/Batch/Task and nested as appropriate.
+        - label: Work item has been added to the [Digital Customer Success Semester Plan](https://github.com/orgs/github/projects/2946)
+        - label: Work item has a target date set in the Project board
+        - label: Stakeholders if applicable have signed-off on the final deliverable.
+        - label: A GitHub Docs issue is in place OR was deemed not necessary.
+        - label: A GitHub Docs Internal issue is in place OR was deemed not necessary.
+        - label: The work-item has been announced in appropriate channels or will shortly be announced.
